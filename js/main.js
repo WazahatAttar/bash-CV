@@ -4,27 +4,27 @@ function help(){
   return "<h2><span style=\"color:#eb926d;\">Help:</span></h2><table>\
   <tr>\
     <td>all</td>\
-    <td>Give me the complete picture</td>\
+    <td>The complete picture</td>\
   </tr>\
   <tr>\
     <td>about</td>\
-    <td>Everything you ever wanted to know about John Smith</td>\
+    <td>Everything about Wazahat</td>\
   </tr>\
   <tr>\
     <td>contact</td>\
-    <td>How to get in touch with John Smith</td>\
+    <td>How to get in touch with Wazahat</td>\
   </tr>\
   <tr>\
     <td>links</td>\
-    <td>See what links John Smith wants you to click on</td>\
+    <td>Places Wazahat wants you to go</td>\
   </tr>\
   <tr>\
     <td>skills</td>\
-    <td>Get to know how good John Smith is at stuff</td>\
+    <td>How good Wazahat is at stuff</td>\
   </tr>\
   <tr>\
     <td>cv</td>\
-    <td>Download John Smith's CV</td>\
+    <td>Download Wazahat Attar's CV</td>\
   </tr>\
   <tr>\
     <td>rickroll</td>\
@@ -36,56 +36,72 @@ function contact(){
   return "<h2><span style=\"color:#cc6666;\">Contact:</span></h2><table>\
   <tr>\
     <td>Email</td>\
-    <td><a href=\"mailto:john.smith@emailprovider.com\">john.smith@emailprovider.com</a></td>\
+    <td><a href=\"mailto:wazahat7attar@gmail.com\">wazahat7attar@gmail.com</a></td>\
   </tr>\
   <tr>\
     <td>Telephone</td>\
-    <td><a href=\"tel:+45-657-56234\">+45-657-56234</a></td>\
+    <td><a href=\"tel:+1(510)674-6834\">+1(510)674-6834</a></td>\
   </tr>\
   <tr>\
     <td>Address</td>\
-    <td>John Smith</td>\
+    <td>Wazahat Ali Attar</td>\
   </tr>\
   <tr>\
     <td> </td>\
-    <td>205 Autumn Street</td>\
+    <td>Hayward</td>\
   </tr>\
   <tr>\
     <td> </td>\
-    <td>5472</td>\
+    <td>California</td>\
   </tr>\
   <tr>\
     <td> </td>\
-    <td>London</td>\
+    <td>USA</td>\
   </tr>\
   <tr>\
     <td> </td>\
-    <td>UK</td>\
+    <td>94542</td>\
   </tr></table>";
 }
 
 function skills(){
   return "<h2><span style=\"color:#81a2be;\">Skills:</span></h2><table>\
   <tr>\
-    <td>Photoshop</td>\
+    <td>C</td>\
+    <td>▰▰▰▰▰▰▰▰▰▱ 90%</td>\
+    <td>C++</td>\
+    <td>▰▰▰▰▰▰▰▰▰▱ 90%</td>\
+    <td>Python</td>\
+    <td>▰▰▰▰▰▰▰▰▰▱ 90%</td>\
+    <td>Kotlin</td>\
+    <td>▰▰▰▰▰▰▰▱▱▱ 70%</td>\
+    <td>Ruby</td>\
+    <td>▰▰▰▰▰▰▰▰▱▱ 80%</td>\
+    <td>Java</td>\
     <td>▰▰▰▰▰▰▱▱▱▱ 60%</td>\
   </tr>\
   <tr>\
-    <td>HTML</td>\
-    <td>▰▰▰▰▰▱▱▱▱▱ 50%</td>\
+    <td>Linux</td>\
+    <td>▰▰▰▰▰▰▰▰▱▱ 80%</td>\
+    <td>Bash</td>\
+    <td>▰▰▰▰▰▰▰▰▰▱ 90%</td>\
   </tr>\
   <tr>\
-    <td>Premiere Pro</td>\
+    <td>Unity3d Game Development</td>\
+    <td>▰▰▰▰▰▰▰▰▱▱ 80%</td>\
+    <td>Mixed Reality</td>\
     <td>▰▰▰▰▰▰▰▰▱▱ 80%</td>\
   </tr>\
   <tr>\
-    <td>Rickrolling</td>\
-    <td>▰▰▰▰▰▰▰▰▰▰ 100%</td>\
+    <td>ML</td>\
+    <td>▰▰▰▰▰▰▰▱▱▱ 70%</td>\
+    <td>NLP</td>\
+    <td>▰▰▰▰▰▰▰▱▱▱ 70%</td>\
   </tr></table>";
 }
 
 function about(){
-  return "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>";
+  return "<p>Highly skilled software engineer with 3+ years of experience in developing and enhancing enterprise solutions and extensive experience working on diverse projects that involve IOT, Deep Learning, Natural Language Processing, and Mixed Reality.\nI attended S.S. Ajmera High School and Bishops Co-Ed School, went to S.P.College for my +2s, and got my Bachelors in Computer Engineering from VIT, Pune. I was then scooped up by VMware Inc., where I worked for 3 years. I then took a short(!) trip to the US to pursie my Masters from California State University. Thats all about me for now.</p>";
 }
 
 function cv(){
@@ -100,8 +116,7 @@ function links(){
   return "<span style=\"color: #b5bd68;\"><h2>Links:</h2></span><ul>\
   <li><a href=\"https://www.linkedin.com\" target=\"_blank\"><i class=\"fab fa-linkedin\"></i> LinkedIn</a></li>\
   <li><a href=\"https://www.github.com\" target=\"_blank\"><i class=\"fab fa-github\"></i> Github</a></li>\
-  <li><a href=\"https://www.twitter.com\" target=\"_blank\"><i class=\"fab fa-twitter\"></i> Twitter</a></li>\
-  <li><a href=\"https://www.facebook.com\" target=\"_blank\"><i class=\"fab fa-facebook\"></i> Facebook</a></li>\
+  <li><a href=\"https://www.twitter.com\" target=\"_blank\"><i class=\"fab fa-twitter\"></i> CV</a></li>\
   </ul>";
 }
 
@@ -185,6 +200,7 @@ function rickroll(){
 // Main Function
 function commandProcessor(e){
 
+  document.getElementById('injected').innerHTML=about() + "\n\n\n" + skills() + "\n\n\n" + links() + "\n\n\n" + contact() + "\n\n\n" + cv();
   //Check if the enter key is pressed
   if(e.keyCode == 13){
 
