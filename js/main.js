@@ -105,7 +105,7 @@ function skills(){
 }
 
 function about(){
-  return "<p>Highly skilled software engineer with 3+ years of experience in developing and enhancing enterprise solutions and extensive experience working on diverse projects that involve IOT, Deep Learning, Natural Language Processing, and Mixed Reality.\nI attended S.S. Ajmera High School and Bishops Co-Ed School, went to S.P.College for my +2s, and got my Bachelors in Computer Engineering from VIT, Pune. I was then scooped up by VMware Inc., where I worked for 3 years. I then took a short(!) trip to the US to pursie my Masters from California State University. Thats all about me for now.</p>";
+  return "<p>Highly skilled software engineer with 3+ years of experience in developing and enhancing enterprise solutions and extensive experience working on diverse projects that involve IOT, Deep Learning, Natural Language Processing, and Mixed Reality.<p></p>I attended S.S. Ajmera High School and Bishops Co-Ed School, went to S.P.College for my +2s, and got my Bachelors in Computer Engineering from VIT, Pune. I was then scooped up by VMware Inc., where I worked for 3 years. I then took a short(!) trip to the US to pursie my Masters from California State University. Thats all about me for now.</p>";
 }
 
 function cv(){
