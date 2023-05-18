@@ -24,11 +24,19 @@ function help(){
   </tr>\
   <tr>\
     <td>cv</td>\
-    <td>Download Wazahat Attar's CV</td>\
+    <td>Download Wazahat's CV</td>\
   </tr>\
   <tr>\
-    <td>rickroll</td>\
-    <td>Never Gonna Give You Up</td>\
+    <td>study</td>\
+    <td>Wazahat's educational qualifications</td>\
+  </tr>\
+  <tr>\
+    <td>work</td>\
+    <td>Wazahat's professional career</td>\
+  </tr>\
+  <tr>\
+    <td>projects</td>\
+    <td>What Wazahat has worked on</td>\
   </tr></table>";
 }
 
@@ -110,19 +118,19 @@ function cv(){
   return "<span style=\"color:#8abeb7;\"><h2>CV:</h2></span><p>\tDownload from <a href=\"src/cv.pdf\" target=\"_blank\" style=\"text-decoration: underline;\">here</a>.</p>";
 }
 
-function credits(){
+function edu(){
   return "<p>Built by <a href=\"https://www.github.com/CedArctic\" target=\"_blank\"><i class=\"fab fa-github\"></i> CedArctic</a></p>";
 }
 
 function links(){
   return "<span style=\"color: #b5bd68;\"><h2>Links:</h2></span><ul>\
-  <li><a href=\"https://www.linkedin.com\" target=\"_blank\"><i class=\"fab fa-linkedin\"></i> LinkedIn</a></li>\
-  <li><a href=\"https://www.github.com\" target=\"_blank\"><i class=\"fab fa-github\"></i> Github</a></li>\
-  <li><a href=\"https://www.twitter.com\" target=\"_blank\"><i class=\"fab fa-twitter\"></i> CV</a></li>\
+  <li><a href=\"https://www.linkedin.com/in/wazahat7attar\" target=\"_blank\"><i class=\"fab fa-linkedin\"></i> LinkedIn</a></li>\
+  <li><a href=\"https://github.com/WazahatAttar\" target=\"_blank\"><i class=\"fab fa-github\"></i> Github</a></li>\
+  <li><a href=\"src/cv.pdf\" target=\"_blank\"><i class=\"fab fa-file-pdf\"></i> CV</a></li>\
   </ul>";
 }
 
-function rickroll(){
+function projects(){
   return "<p>We're no strangers to love<br>\
     You know the rules and so do I<br>\
     A full commitment's what I'm thinking of<br>\
@@ -231,8 +239,6 @@ function commandProcessor(e){
       var win = window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", '_blank');
       win.focus();
       document.getElementById('injected').innerHTML=rickroll();
-    }else if (txtInput == "credits") {
-      document.getElementById('injected').innerHTML=credits();
     }else{
       document.getElementById('injected').innerHTML = help();
     }
