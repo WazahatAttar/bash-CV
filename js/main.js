@@ -71,12 +71,14 @@ function skills(){
     <td>▰▰▰▰▰▰▰▰▰▱ 90%</td>\
     <td>C++</td>\
     <td>▰▰▰▰▰▰▰▰▰▱ 90%</td>\
-    <td>Python</td>\
-    <td>▰▰▰▰▰▰▰▰▰▱ 90%</td>\
   </tr>\
   <tr>\
+    <td>Python</td>\
+    <td>▰▰▰▰▰▰▰▰▰▱ 90%</td>\
     <td>Kotlin</td>\
     <td>▰▰▰▰▰▰▰▱▱▱ 70%</td>\
+  </tr>\
+  <tr>\
     <td>Ruby</td>\
     <td>▰▰▰▰▰▰▰▰▱▱ 80%</td>\
     <td>Java</td>\
